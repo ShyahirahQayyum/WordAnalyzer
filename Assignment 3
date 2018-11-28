@@ -15,7 +15,7 @@
  analyzeWord=()=>{
     this.setState({array:this.state.word.split("")},
     ()=> {
-      this.setState({countL:this.state.array.length})
+      this.setState({characNo:this.state.array.length})
 
  
         for(var i=0; i<this.state.array.length; i++){

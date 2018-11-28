@@ -15,6 +15,7 @@ constructor(){
 
 
 //done by Shyahirah
+
  analyzeWord=()=>{
     this.setState({this.state.word.split("")},
     ()=> {
